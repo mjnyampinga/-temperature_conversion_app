@@ -6,7 +6,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Temperature Conversion'),
+        title: Text('Temperature Converter'),
       ),
       body: TemperatureConverter(),
     );
